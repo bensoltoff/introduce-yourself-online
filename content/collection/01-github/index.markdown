@@ -1,11 +1,9 @@
 ---
 title: "Why online?"
-author: Alison Hill
-weight: 1
+weight: 2
 subtitle: "Why and how to introduce yourself online."
 excerpt: "I cannot promise fame or fortune, but I can promise: friendship, findability, fun, and function."
-date: 2021-01-25
-draft: false
+date: 2022-02-21
 links:
 - icon: campground
   icon_pack: fas
@@ -14,7 +12,7 @@ links:
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day01/01-github/#activity"
+  url: "collection/01-github/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>

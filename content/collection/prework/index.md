@@ -3,7 +3,7 @@ title: "Prework"
 weight: 1
 subtitle: "How to prepare ahead of time."
 excerpt: "How to prepare for the workshop ahead of time."
-date: 2021-01-23
+date: 2022-02-21
 draft: false
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: "Why online?"
-weight: 1
+weight: 2
 subtitle: "Why and how to introduce yourself online."
 excerpt: "I cannot promise fame or fortune, but I can promise: friendship, findability, fun, and function."
+date: 2022-02-21
 links:
 - icon: campground
   icon_pack: fas
@@ -11,7 +12,7 @@ links:
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day01/01-github/#activity"
+  url: "collection/01-github/#activity"
 ---
 
 ## Why introduce yourself online?
@@ -19,8 +20,6 @@ links:
 ```{r embed-xaringan, echo=FALSE}
 xaringanExtra::embed_xaringan(url = "/slides/01-why-online.html", ratio = "16:9")
 ```
-
-
 
 ## Activity 
 
