@@ -1,9 +1,8 @@
 ---
 title: "Why Hugo?"
-author: Alison Hill
 weight: 6
 subtitle: "Everything is a page, markdown-first."
-date: 2021-01-26
+date: 2022-01-21
 draft: false
 links:
 - icon: campground
@@ -16,20 +15,20 @@ links:
   url: "collection/day02/06-hugo/#activity"
 ---
 
+<script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 
 ## Why Hugo?
 
-```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/06-why-hugo.html", ratio = "16:9")
-```
+<div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="/slides/06-why-hugo.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
 
+## Activity
 
+TIME: ⏱ 10 minutes
 
-## Activity 
-
-TIME: `r emo::ji("stopwatch")` 10 minutes
-
-Let's use this time to configure your new Hugo site. 
+Let’s use this time to configure your new Hugo site.
 
 ### Site configuration
 
@@ -37,7 +36,7 @@ Edit your `config.toml` file. This is your basic Hugo site configuration file. I
 
 Biggest payoffs right away will be to switch up the built-in font choice:
 
-```yaml
+``` yaml
   # alternatively, use a built-in font-family
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
@@ -47,18 +46,18 @@ Biggest payoffs right away will be to switch up the built-in font choice:
 
 And the built-in site color theme:
 
-```yaml
+``` yaml
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water
   theme = "sky"
 ```
 
-### Social 
+### Social
 
 Open up `data/social.yaml` and add your social links there. Use these parameters in your `config.toml` file to control where they show up:
 
-```yaml
+``` yaml
   # show/hide social icons in site header/footer/home page
   socialInHeader = false
   socialInFooter = true

@@ -1,9 +1,8 @@
 ---
 title: "Why Netlify?"
-author: Alison Hill
 weight: 5
 subtitle: "Using Netlify to build websites in the cloud."
-date: 2021-01-26
+date: 2022-02-21
 draft: false
 links:
 - icon: campground
@@ -38,7 +37,7 @@ Click on the “Deploy to Netlify” button 🚀
 
 We just created:
 
--   a full blogdown project…
+-   a full `blogdown` project…
 -   containing a Hugo site…
 -   deployed to Netlify…
 -   in a remote repository on YOUR GitHub (i.e., `https://github.com/<you>/iyo-apero`; you may have changed the repo name after clicking on the “Deploy to Netlify” button).
@@ -56,14 +55,6 @@ Use the RStudio IDE project wizard:
 4.  Be intentional about where you tell RStudio to create this new Project on your workstation.
 
 5.  Click Create Project.
-
-**Alternatively**, do this (but note that it requires a [GitHub personal access token](https://happygitwithr.com/credential-caching.html#get-a-pat)):
-
-``` r
-usethis::create_from_github("apreshill/iyo-apero", 
-                            destdir = "/Users/alison/rscratch",
-                            fork = FALSE)
-```
 
 ### Serve your site locally
 

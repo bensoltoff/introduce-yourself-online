@@ -1,9 +1,8 @@
 ---
 title: "Why Netlify?"
-author: Alison Hill
 weight: 5
 subtitle: "Using Netlify to build websites in the cloud."
-date: 2021-01-26
+date: 2022-02-21
 draft: false
 links:
 - icon: campground
@@ -20,14 +19,11 @@ links:
 knitr::opts_chunk$set(eval=FALSE)
 ```
 
-
-
 ## Why Netlify?
 
 ```{r embed-xaringan, echo=FALSE, eval =TRUE}
 xaringanExtra::embed_xaringan(url = "/slides/05-why-netlify.html", ratio = "16:9")
 ```
-
 
 ## Activity 
 
@@ -42,7 +38,7 @@ Click on the "Deploy to Netlify" button `r emo::ji("rocket")`
 
 We just created:
 
-+ a full blogdown project...
++ a full `blogdown` project...
 + containing a Hugo site...
 + deployed to Netlify...
 + in a remote repository on YOUR GitHub (i.e., `https://github.com/<you>/iyo-apero`; you may have changed the repo name after clicking on the "Deploy to Netlify" button). 
@@ -61,15 +57,6 @@ Use the RStudio IDE project wizard:
 
 1. Click Create Project.
 
-**Alternatively**, do this (but note that it requires a [GitHub personal access token](https://happygitwithr.com/credential-caching.html#get-a-pat)):
-
-```{r}
-usethis::create_from_github("apreshill/iyo-apero", 
-                            destdir = "/Users/alison/rscratch",
-                            fork = FALSE)
-```
-
-
 ### Serve your site locally
 
 Use the serve site add-in from the blogdown package to preview your site:
@@ -77,7 +64,6 @@ Use the serve site add-in from the blogdown package to preview your site:
 ![](addin-serve-site.png)
 
 You should be **all set** to now commit / push / pull from your *personal* GitHub repository freely! Every commit to the `main` branch will trigger your Hugo site to be built and deployed again via Netlify :magic:
-
 
 ### File scavenger hunt
 

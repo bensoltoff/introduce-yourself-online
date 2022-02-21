@@ -2,7 +2,7 @@
 title: "Why Hugo Apéro?"
 weight: 7
 subtitle: "Nice features of this theme."
-date: 2021-01-26
+date: 2022-02-21
 draft: false
 links:
 - icon: campground
