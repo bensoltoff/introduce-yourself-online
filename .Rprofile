@@ -14,9 +14,7 @@ options(
   # full markdown mode
   blogdown.method = "html",
   # don't serve on knit
-  blogdown.knit.serve_site = FALSE,
-  # so the live preview actually live previews
-  blogdown.hugo.server = c('--disableFastRender', '-D', '-F', '--navigateToChanged')
+  blogdown.knit.serve_site = FALSE
 )
 
 # pin Hugo version
