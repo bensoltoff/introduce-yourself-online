@@ -1,9 +1,8 @@
 ---
 title: "Introduce Yourself Online"
-subtitle: "A two-day workshop for rstudio::global(2021) diversity scholars"
 description: |
-  A two-day workshop for rstudio::global(2021) diversity scholars. This section contains the materials for this workshop.
-author: Alison Hill
+  A workshop event that is part of the Computation Skills Workshop series.
+  This section contains the materials for this workshop.
 show_post_thumbnail: true
 show_author_byline: false
 show_post_date: false
@@ -15,11 +14,10 @@ cascade:
   layout: single-series 
   show_author_byline: true
   show_post_date: true
-  author: Alison Hill
   sidebar:
     title: "Introduce Yourself Online"
     description: |
-      A two-day workshop for rstudio::global(2021) diversity scholars. 
+      A workshop event that is part of the Computation Skills Workshop series.
       This section contains the materials for this workshop.
     show_sidebar_adunit: true # show ad container
     text_series_label: "Outline" 
