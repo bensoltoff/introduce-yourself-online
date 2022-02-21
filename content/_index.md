@@ -1,6 +1,6 @@
 ---
 title: "Introduce yourself online"
-subtitle: "A workshop @ rstudio::global(2021)"
+subtitle: "Computation Skills Workshop"
 description: |
   "You should have a website!" You may have heard this one before, or even said it yourself. In this workshop, you'll learn how to build and customize a website from the comfort of the RStudio IDE with R Markdown. 
 images:
