@@ -84,10 +84,6 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/css-skills/introduce-yourself-online"
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/soltoffbc"
 
 [taxonomies]
   category = "categories"
