@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Introduce Yourself Online"
 author = "Benjamin Soltoff"
 theme = "hugo-apero"
-copyright = "" # set to override the auto generated copyright using org info and now year
+copyright = "Used with license from RStudio, PBC" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
 metaDataFormat = "yaml"
@@ -111,3 +111,9 @@ enableEmoji = true
     url = "/package/"
     weight = 3
 
+  # Configure footer
+  [[menu.footer]]
+    name = "License"
+    title = "License"
+    url = "/license/"
+    weight = 1
