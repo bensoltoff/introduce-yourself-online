@@ -6,4 +6,4 @@ headline: "Hello, are you ready to start?"
 ---
 
 <!-- this is a subheadline -->
-In this workshop, we'll build and deploy *many* websites. We'll cover basic website care and feeding like using R Markdown to create content, and how to use [GitHub](https://github.com/) for version control and [Netlify](https://www.netlify.com/) for publishing. We will primarily use the RStudio IDE and R packages from the R Markdown family including `distill` and `blogdown`. Are you ready to get started? Read on...
+In this workshop, we'll build and deploy a few different types of websites. We'll cover basic website care and feeding like using R Markdown to create content, and how to use [GitHub](https://github.com/) for version control and [Netlify](https://www.netlify.com/) for publishing. We will primarily use the RStudio IDE and R packages from the R Markdown family including `blogdown`.
