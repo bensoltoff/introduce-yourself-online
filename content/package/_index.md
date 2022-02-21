@@ -2,7 +2,6 @@
 title: Packages
 type: project
 description: "All about the packages we'll use in this workshop."
-author: "The R Markdown Team @RStudio"
 show_post_thumbnail: true
 show_author_byline: false
 show_post_date: false
@@ -13,7 +12,7 @@ layout: list-grid # list, list-sidebar, list-grid
 sidebar: 
   title: Introduce yourself online
   description: |
-    In this 2-day workshop, we'll use 3 main R packages.
+    In this workshop we will use 3 main R packages.
   author: "The R Markdown Team @RStudio"
   text_link_label: ""
   text_link_url: ""

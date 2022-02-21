@@ -4,7 +4,6 @@ weight: 3
 subtitle: "Build websites with Hugo and R Markdown"
 excerpt: "The goal of the blogdown package is to provide a powerful and infinitely customizable website output format for R Markdown."
 date: 2021-01-18
-author: "Alison Hill"
 tags:
   - website
   - blog
@@ -25,7 +24,7 @@ links:
 - icon: bullhorn
   icon_pack: fas
   name: latest release
-  url: https://blog.rstudio.com/2021/01/18/blogdown-v1.0/
+  url: https://pkgs.rstudio.com/blogdown/news/index.html#changes-in-blogdown-version-18
 ---
 
 The goal of the blogdown package is to provide a powerful and infinitely customizable website output format for R Markdown. You may install it from CRAN:
@@ -36,8 +35,6 @@ install.packages("blogdown")
 
 ## Additional resources
 
-+ [Up & running with blogdown in 2021](https://alison.rbind.io/post/new-year-new-blogdown/)
-
-+ [Unbreak your blogdown site](https://alison.rbind.io/post/2020-12-27-blogdown-checks/) 
-
-+ [A spoonful of Hugo series](https://alison.rbind.io/categories/hugo/)
+- [`blogdown`: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+- [Up & running with blogdown in 2021](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/)
+- [Unbreak your blogdown site](https://www.apreshill.com/blog/2020-12-27-blogdown-checks/) 

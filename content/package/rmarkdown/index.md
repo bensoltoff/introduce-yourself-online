@@ -1,5 +1,4 @@
 ---
-author: Alison Hill
 categories:
 - R
 - package
@@ -28,9 +27,8 @@ links:
   url: https://bookdown.org/yihui/rmarkdown-cookbook/
 ---
 
-The rmarkdown package is a single package, but "R Markdown" is the backbone for an ecosystem of packages for creating computational documents in R. In this workshop, we'll use the development version installed from GitHub.
+The `rmarkdown` package is a single package, but "R Markdown" is the backbone for an ecosystem of packages for creating computational documents in R. To install `rmarkdown`, use:
 
 ```r
-install.packages("remotes")
-remotes::install_github("rstudio/rmarkdown")
+install.packages("rstudio/rmarkdown")
 ```
