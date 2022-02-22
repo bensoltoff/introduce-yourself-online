@@ -7,13 +7,13 @@ show_post_thumbnail: true
 show_author_byline: false
 show_post_date: false
 # for listing page layout
-layout: list-sidebar # list, list-sidebar
+layout: single-series
 
 # set up common front matter for all individual pages in series
 cascade:
   layout: single-series 
   show_author_byline: true
-  show_post_date: true
+  show_post_date: false
   sidebar:
     title: "Introduce Yourself Online"
     description: |
@@ -23,3 +23,7 @@ cascade:
     text_series_label: "Outline" 
     text_contents_label: "On this page" 
 ---
+
+## Materials
+
+Use the left sidebar menu to explore the materials for today.
