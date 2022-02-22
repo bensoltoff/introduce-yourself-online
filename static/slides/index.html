@@ -109,7 +109,7 @@ class: activity
 
 Let's make our GitHub name tags right now
 
-<div class="countdown" id="timer_621552a7" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_62155827" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -142,7 +142,7 @@ Use the tools you already use (or should be using- 😉) for your work
 
 class: inverse, center, middle
 
-# What *is* R Markdown?
+## What *is* R Markdown?
 
 ---
 
@@ -293,7 +293,7 @@ class: activity
 
 Let's make a homepage with the `postcards` package.
 
-<div class="countdown" id="timer_6215531c" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_621556d0" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -309,7 +309,7 @@ background-color: #ffffff
 ---
 class: inverse, center, middle
 
-# Mood
+## Mood
 
 ---
 background-image: url(img/mr-rogers.jpg)
@@ -339,7 +339,7 @@ background-color: #ffffff
 ---
 class: inverse, center, middle
 
-# Why Netlify?
+## Why Netlify?
 
 ---
 
@@ -367,7 +367,7 @@ class: inverse, middle
 ---
 class: inverse, middle
 
-# 📣 Speaks Hugo
+## 📣 Speaks Hugo
 
 ---
 class: middle, center
@@ -387,7 +387,7 @@ class: middle, center
 ---
 class: inverse, center, middle
 
-# Whither GitHub Pages?
+## Whither GitHub Pages?
 
 --
 
@@ -396,7 +396,7 @@ If you `build_site()`, you can commit + push your `public/` folder to use GitHub
 ---
 class: inverse, center, middle
 
-# Why Netlify?
+## Why Netlify?
 
 Go to this repo:
 &lt;https://github.com/hugo-apero/iyo-apero&gt;
@@ -410,10 +410,206 @@ class: activity
 
 Let's go on a file scavenger hunt.
 
-<div class="countdown" id="timer_62155513" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_62155709" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
+---
+
+background-image: url(img/gopher-hero.svg)
+background-position: 50% 20%
+background-size: 25%
+background-color: #ffffff
+
+# Why Hugo?
+
+---
+
+# Why Hugo?
+
+--
+
+Markdown first
+
+--
+
+Content organization (subfolders!)
+
+--
+
+Layouts
+
+--
+
+Multilingual sites
+
+--
+
+Powerful taxonomies
+
+--
+
+Magical [list templates](https://gohugo.io/templates/lists/)
+
+---
+class: inverse, center, middle
+
+## What *is* Hugo?
+
+--
+
+`themes/hugo-apero/layouts/`
+
+---
+
+```html
+&lt;header class="post-header"&gt;
+  &lt;h1 class="f1 lh-solid measure-narrow mb3 fw4"&gt;{{ .Title }}&lt;/h1&gt;
+  {{ if .Params.subtitle }}
+    &lt;h4 class="f4 mt0 mb4 lh-title measure"&gt;
+    {{ .Params.subtitle }}
+    &lt;/h4&gt;
+  {{ end }}
+&lt;/header&gt;
+```
+
+--
+
+
+![](img/hugo-single.png)
+
+---
+class: bottom, center
+background-image: url(img/mustache.jpg)
+background-size: 25%
+background-color: #ffffff
+
+
+## Hugo = a double curly brace templating system
+
+## `{{ &lt;hugo code goes here&gt; }}`
+
+
+---
+
+# Use your YAMLs 🍠
+
+AKA "frontmatter"
+
+.pull-left[
+```yaml
+---
+title: "Using panelsets"
+subtitle: "How to add panelsets..."
+---
+```
+]
+
+--
+
+.pull-right[
+```go
+
+{{ .Title }}
+{{ .Params.subtitle }}
+
+```
+]
+
+
+---
+
+# Hugo Page Bundles
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # =&gt; a leaf bundle
+│   └── faves/                 # =&gt; a branch bundle
+│       ├── _index.md          # =&gt; AHA!
+│       ├── roses/index.md     # =&gt; a leaf bundle
+│       ├── kittens/index.md   # =&gt; another leaf bundle
+│       └── kettles/index.md   # =&gt; yet another leaf bundle
+```
+
+---
+
+# Hugo list vs single templates
+
+.pull-left[
+![](img/hugo-list-page.png)
+]
+
+--
+
+.pull-right[
+![](img/hugo-single-page.png)
+]
+
+---
+
+# Hugo list vs single templates
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # =&gt; single page
+│   └── faves/                 
+│       ├── _index.md          # =&gt; **list all faves**!
+│       ├── roses/index.md     # =&gt; single page
+│       ├── kittens/index.md   # =&gt; single page
+│       └── kettles/index.md   # =&gt; single page
+```
+
+---
+
+class: activity
+
+# ⏱ To configure your new Hugo site!
+
+<div class="countdown" id="timer_62155730" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+background-image: url(img/stars.jpg)
+background-position: 50% 20%
+background-size: 30%
+background-color: #ffffff
+
+# Why Hugo Apéro?
+
+---
+
+# Hugo themes
+
+- [Hugo themes](https://themes.gohugo.io/)
+
+
+--
+
+- [Computing for the Social Sciences](https://cfss.uchicago.edu/)
+- &lt;https://www.drcathicks.com/&gt;
+- &lt;https://amber.rbind.io/&gt;
+- &lt;https://third-bit.com/&gt;
+- &lt;https://malco.io/&gt;
+- &lt;https://isabella-b.com/&gt;
+- &lt;https://www.allisonhorst.com/&gt;
+- &lt;https://juliasilge.com/&gt;
+- &lt;https://www.silviacanelon.com/&gt;
+
+
+---
+class: activity
+
+# ⏱ To your site!
+
+Make it yours: customize the home + about pages
+
+<div class="countdown" id="timer_6215564c" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>

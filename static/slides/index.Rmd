@@ -146,7 +146,7 @@ Use the tools you already use (or should be using- `r emo::ji("wink")`) for your
 
 class: inverse, center, middle
 
-# What *is* R Markdown?
+## What *is* R Markdown?
 
 ---
 
@@ -313,7 +313,7 @@ background-color: #ffffff
 ---
 class: inverse, center, middle
 
-# Mood
+## Mood
 
 ---
 background-image: url(img/mr-rogers.jpg)
@@ -343,7 +343,7 @@ background-color: #ffffff
 ---
 class: inverse, center, middle
 
-# Why Netlify?
+## Why Netlify?
 
 ---
 
@@ -371,7 +371,7 @@ class: inverse, middle
 ---
 class: inverse, middle
 
-# `r emo::ji("megaphone")` Speaks Hugo
+## `r emo::ji("megaphone")` Speaks Hugo
 
 ---
 class: middle, center
@@ -421,7 +421,7 @@ list_png %>%
 ---
 class: inverse, center, middle
 
-# Whither GitHub Pages?
+## Whither GitHub Pages?
 
 --
 
@@ -430,7 +430,7 @@ If you `build_site()`, you can commit + push your `public/` folder to use GitHub
 ---
 class: inverse, center, middle
 
-# Why Netlify?
+## Why Netlify?
 
 Go to this repo:
 <https://github.com/hugo-apero/iyo-apero>
@@ -448,4 +448,200 @@ Let's go on a file scavenger hunt.
 countdown(minutes = 10)
 ```
 
+---
+
+background-image: url(img/gopher-hero.svg)
+background-position: 50% 20%
+background-size: 25%
+background-color: #ffffff
+
+# Why Hugo?
+
+---
+
+# Why Hugo?
+
+--
+
+Markdown first
+
+--
+
+Content organization (subfolders!)
+
+--
+
+Layouts
+
+--
+
+Multilingual sites
+
+--
+
+Powerful taxonomies
+
+--
+
+Magical [list templates](https://gohugo.io/templates/lists/)
+
+---
+class: inverse, center, middle
+
+## What *is* Hugo?
+
+--
+
+`themes/hugo-apero/layouts/`
+
+---
+
+```html
+<header class="post-header">
+  <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}
+    <h4 class="f4 mt0 mb4 lh-title measure">
+    {{ .Params.subtitle }}
+    </h4>
+  {{ end }}
+</header>
+```
+
+--
+
+
+![](img/hugo-single.png)
+
+---
+class: bottom, center
+background-image: url(img/mustache.jpg)
+background-size: 25%
+background-color: #ffffff
+
+
+## Hugo = a double curly brace templating system
+
+## `{{ <hugo code goes here> }}`
+
+
+---
+
+# Use your YAMLs `r emo::ji("sweet_potato")`
+
+AKA "frontmatter"
+
+.pull-left[
+```yaml
+---
+title: "Using panelsets"
+subtitle: "How to add panelsets..."
+---
+```
+]
+
+--
+
+.pull-right[
+```go
+
+{{ .Title }}
+{{ .Params.subtitle }}
+
+```
+]
+
+
+---
+
+# Hugo Page Bundles
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # => a leaf bundle
+│   └── faves/                 # => a branch bundle
+│       ├── _index.md          # => AHA!
+│       ├── roses/index.md     # => a leaf bundle
+│       ├── kittens/index.md   # => another leaf bundle
+│       └── kettles/index.md   # => yet another leaf bundle
+```
+
+---
+
+# Hugo list vs single templates
+
+.pull-left[
+![](img/hugo-list-page.png)
+]
+
+--
+
+.pull-right[
+![](img/hugo-single-page.png)
+]
+
+---
+
+# Hugo list vs single templates
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # => single page
+│   └── faves/                 
+│       ├── _index.md          # => **list all faves**!
+│       ├── roses/index.md     # => single page
+│       ├── kittens/index.md   # => single page
+│       └── kettles/index.md   # => single page
+```
+
+---
+
+class: activity
+
+# `r emo::ji("stopwatch")` To configure your new Hugo site!
+
+```{r cache = FALSE}
+countdown(minutes = 10)
+```
+
+---
+
+background-image: url(img/stars.jpg)
+background-position: 50% 20%
+background-size: 30%
+background-color: #ffffff
+
+# Why Hugo Apéro?
+
+---
+
+# Hugo themes
+
+- [Hugo themes](https://themes.gohugo.io/)
+
+
+--
+
+- [Computing for the Social Sciences](https://cfss.uchicago.edu/)
+- <https://www.drcathicks.com/>
+- <https://amber.rbind.io/>
+- <https://third-bit.com/>
+- <https://malco.io/>
+- <https://isabella-b.com/>
+- <https://www.allisonhorst.com/>
+- <https://juliasilge.com/>
+- <https://www.silviacanelon.com/>
+
+
+---
+class: activity
+
+# `r emo::ji("stopwatch")` To your site!
+
+Make it yours: customize the home + about pages
+
+```{r cache = FALSE}
+countdown(minutes = 10)
+```
 
