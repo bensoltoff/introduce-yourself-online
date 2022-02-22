@@ -4,8 +4,6 @@ author: "Computation Skills Workshop"
 output: rcfss::xaringan
 ---
 
-class: inverse, center, middle
-
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -23,10 +21,16 @@ library(knitr)
 library(countdown)
 library(flipbookr)
 library(xaringanExtra)
+library(magick)
 
 set.seed(123)
 theme_set(theme_minimal(base_size = rcfss::base_size))
 ```
+
+background-image: url(img/internet.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
 
 # Why introduce yourself online? 
 
@@ -115,7 +119,10 @@ countdown(minutes = 10)
 
 ---
 
-class: inverse, center, middle
+background-image: url(img/index.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
 
 # Why R Markdown?
 
@@ -240,7 +247,6 @@ class: inverse, center, middle
 ]
 
 ---
-class: middle, center
 
 .pull-left[
 ## Repo
@@ -279,7 +285,7 @@ class: middle, center
 <br>
 `https://<user>.github.io/<repo>`
 <br><br><br>
-`https://github.com/<user>/<repo>/<.html>`
+`https://<user>.github.com/<repo>/<.html>`
 
 ]
 
@@ -295,5 +301,151 @@ Let's make a homepage with the `postcards` package.
 countdown(minutes = 10)
 ```
 
+---
+
+background-image: url(img/server.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
+
+# Why Netlify?
+
+---
+class: inverse, center, middle
+
+# Mood
+
+---
+background-image: url(img/mr-rogers.jpg)
+background-size: 80%
+class: bottom, center
+
+
+<!--https://twitter.com/jlengstorf/status/1334594454347415554?s=20-->
+
+---
+background-image: url("img/server.jpg")
+background-size: 80%
+background-position: bottom
+class: center, top
+background-color: #ffffff
+
+# What is next?
+
+--
+<img src="img/Netlify.png" style="
+  position: absolute; 
+  width: 23%; 
+  top: 335px;
+  right: 228px;
+">
+
+---
+class: inverse, center, middle
+
+# Why Netlify?
+
+---
+
+# Why Netlify?
+
+--
+
+Continuous deployment
+
+--
+
+Speaks Hugo (but not R)
+
+--
+
+FEATURES (PR deploy previews / branch deploys / rollbacks)
+
+---
+class: inverse, middle
+
+> Continuous deployment works by connecting a Git repository to a Netlify site and keeping the two in sync.
+
+> &mdash; [Netlify docs](https://docs.netlify.com/site-deploys/create-deploys/)
+
+---
+class: inverse, middle
+
+# `r emo::ji("megaphone")` Speaks Hugo
+
+---
+class: middle, center
+
+```{r echo = FALSE, out.width="80%"}
+list_png <- c("img/blogdown-build/Slide1.png",
+              "img/blogdown-build/Slide2.png",
+              "img/blogdown-build/Slide3.png")
+
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+---
+class: middle, center
+```{r echo = FALSE, out.width = "80%"}
+list_png <- c("img/blogdown-build/Slide3.png",
+              "img/blogdown-build/Slide4.png",
+              "img/blogdown-build/Slide5.png")
+
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+---
+class: middle, center
+
+```{r echo = FALSE, out.width = "80%"}
+list_png <- c("img/blogdown-build/Slide6.png",
+              "img/blogdown-build/Slide7.png",
+              "img/blogdown-build/Slide8.png")
+
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+
+---
+class: inverse, center, middle
+
+# Whither GitHub Pages?
+
+--
+
+If you `build_site()`, you can commit + push your `public/` folder to use GitHub Pages.
+
+---
+class: inverse, center, middle
+
+# Why Netlify?
+
+Go to this repo:
+<https://github.com/hugo-apero/iyo-apero>
+
+Click on the "Deploy to Netlify" button `r emo::ji("rocket")`
+
+---
+class: activity
+
+# `r emo::ji("stopwatch")`  To your new site!
+
+Let's go on a file scavenger hunt.
+
+```{r cache = FALSE}
+countdown(minutes = 10)
+```
 
 

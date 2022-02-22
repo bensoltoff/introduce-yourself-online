@@ -29,7 +29,7 @@ links:
 TIME: ⏱ 10 minutes
 
 Go to this repo:
-<https://github.com/apreshill/iyo-apero>
+<https://github.com/hugo-apero/iyo-apero>
 
 Click on the “Deploy to Netlify” button 🚀
 
