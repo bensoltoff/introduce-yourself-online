@@ -645,3 +645,52 @@ Make it yours: customize the home + about pages
 countdown(minutes = 10)
 ```
 
+---
+
+background-image: url(img/goodnight-site.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
+
+# Why blogdown?
+
+---
+
+# Why blogdown?
+
+--
+
+R!
+
+--
+
+Checking functions `r emo::ji("heavy_check_mark")`
+
+```r
+check_config()
+check_gitignore()
+check_hugo()
+check_content()
+check_netlify()
+check_site()
+```
+
+--
+
+Hugo versioning system
+
+--
+
+`.Rprofile` for custom experience 
+
+---
+class: activity
+
+# `r emo::ji("stopwatch")` To your site!
+
+Run checks, or add/edit content.
+
+```{r cache = FALSE}
+countdown(minutes = 10)
+```
+
