@@ -685,7 +685,7 @@ Hugo versioning system
 
 --
 
-`.Rprofile` for custom experience 
+[`.Rprofile` for custom experience ](https://bookdown.org/yihui/blogdown/global-options.html)
 
 ---
 class: activity

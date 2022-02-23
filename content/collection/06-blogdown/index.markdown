@@ -32,4 +32,6 @@ Choose your own adventure! You may:
 
 1.  Run through the blogdown checks, following: <https://www.apreshill.com/blog/2020-12-blogdown-checks/>
 
-2.  Explore the blog posts (each post is a leaf bundle). Feel free to add code or other content to these posts. Try out panelsets!
+2.  Change the [global options](https://bookdown.org/yihui/blogdown/global-options.html) in `.Rprofile`
+
+3.  Explore the blog posts (each post is a leaf bundle). Feel free to add code or other content to these posts. Try out panelsets!
