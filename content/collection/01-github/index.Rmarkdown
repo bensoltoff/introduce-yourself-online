@@ -8,7 +8,7 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/01-why-online.html"
+  url: "/slides/#2"
 - icon: hiking
   icon_pack: fas
   name: activity
@@ -18,7 +18,7 @@ links:
 ## Why introduce yourself online?
 
 ```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/01-why-online.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "/slides/#2", ratio = 4/3)
 ```
 
 ## Activity 

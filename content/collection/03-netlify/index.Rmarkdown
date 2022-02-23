@@ -8,11 +8,11 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/05-why-netlify.html"
+  url: "/slides/#26"
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day02/05-netlify/#activity"
+  url: "collection/03-netlify/#activity"
 ---
 
 ```{r setup, include=FALSE}
@@ -22,7 +22,7 @@ knitr::opts_chunk$set(eval=FALSE)
 ## Why Netlify?
 
 ```{r embed-xaringan, echo=FALSE, eval =TRUE}
-xaringanExtra::embed_xaringan(url = "/slides/05-why-netlify.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "/slides/#26", ratio = 4/3)
 ```
 
 ## Activity 

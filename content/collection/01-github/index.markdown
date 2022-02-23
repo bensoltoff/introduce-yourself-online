@@ -8,7 +8,7 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/01-why-online.html"
+  url: "/slides/#2"
 - icon: hiking
   icon_pack: fas
   name: activity
@@ -20,7 +20,7 @@ links:
 ## Why introduce yourself online?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/01-why-online.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/#2" width="399.999999999999" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 

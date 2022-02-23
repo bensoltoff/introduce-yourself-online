@@ -27,6 +27,10 @@ set.seed(123)
 theme_set(theme_minimal(base_size = rcfss::base_size))
 ```
 
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
 background-image: url(img/internet.jpg)
 background-position: 50% 20%
 background-size: 50%

@@ -8,11 +8,11 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/08-why-blogdown.html"
+  url: "/slides/#80"
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day02/08-blogdown/#activity"
+  url: "collection/06-blogdown/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
@@ -20,7 +20,7 @@ links:
 ## Why blogdown?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/08-why-blogdown.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/#80" width="399.999999999999" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 

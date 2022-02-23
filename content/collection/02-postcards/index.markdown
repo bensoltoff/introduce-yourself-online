@@ -8,7 +8,7 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/02-why-rmd.html"
+  url: "/slides/#16"
 - icon: hiking
   icon_pack: fas
   name: activity
@@ -20,7 +20,7 @@ links:
 ## Why R Markdown?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/02-why-rmd.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/#16" width="399.999999999999" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 

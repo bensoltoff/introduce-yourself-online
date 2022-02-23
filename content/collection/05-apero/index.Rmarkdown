@@ -8,17 +8,17 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/07-why-apero.html"
+  url: "/slides/#76"
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day02/07-apero/#activity"
+  url: "collection/05-apero/#activity"
 ---
 
 ## Why Hugo Apéro?
 
 ```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/07-why-apero.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "/slides/#76", ratio = 4/3)
 ```
 
 ## Activity 

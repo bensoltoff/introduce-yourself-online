@@ -8,11 +8,11 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/06-why-hugo.html"
+  url: "/slides/#56"
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day02/06-hugo/#activity"
+  url: "collection/04-hugo/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
@@ -20,7 +20,7 @@ links:
 ## Why Hugo?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/06-why-hugo.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/#56" width="399.999999999999" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 

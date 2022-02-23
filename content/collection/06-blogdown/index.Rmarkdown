@@ -8,17 +8,17 @@ links:
 - icon: campground
   icon_pack: fas
   name: slides
-  url: "/slides/08-why-blogdown.html"
+  url: "/slides/#80"
 - icon: hiking
   icon_pack: fas
   name: activity
-  url: "collection/day02/08-blogdown/#activity"
+  url: "collection/06-blogdown/#activity"
 ---
 
 ## Why blogdown?
 
 ```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/08-why-blogdown.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "/slides/#80", ratio = 4/3)
 ```
 
 ## Activity 
