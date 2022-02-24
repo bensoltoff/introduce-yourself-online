@@ -63,7 +63,7 @@ Use the serve site add-in from the blogdown package to preview your site:
 
 ![](addin-serve-site.png)
 
-You should be **all set** to now commit / push / pull from your *personal* GitHub repository freely! Every commit to the `main` branch will trigger your Hugo site to be built and deployed again via Netlify :magic:
+You should be **all set** to now commit / push / pull from your *personal* GitHub repository freely! Every commit to the `main` branch will trigger your Hugo site to be built and deployed again via Netlify `r emo::ji("cool")`
 
 ### File scavenger hunt
 

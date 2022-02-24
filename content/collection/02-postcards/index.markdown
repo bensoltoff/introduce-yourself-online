@@ -174,10 +174,10 @@ Medium:
 
 ``` r
 > usethis::use_github_pages(branch = "main", path = "/")
-✓ Setting active project to '/Users/alison/rscratch/iyo-postcard'
-✓ Activating GitHub Pages for 'apreshill/iyo-postcard'
+✓ Setting active project to '/Users/soltoffbc/rscratch/iyo-postcard'
+✓ Activating GitHub Pages for 'bensoltoff/iyo-postcard'
 ✓ GitHub Pages is publishing from:
-● URL: 'https://apreshill.github.io/iyo-postcard/'
+● URL: 'https://bensoltoff.github.io/iyo-postcard/'
 ● Branch: 'main'
 ● Path: '/'
 ```
